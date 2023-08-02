@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "pretty": true,
+    "watch": false,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": false,
+    "noResolve": false,
+    "types": [
+      "node",
+      "reflect-metadata"
+    ],
+    "lib": ["es6"],
+    "sourceMap": true,
+    "target": "es6",
+    "outDir": "./dist"
+  },
+  "ts-node": {
+    "swc": true
+  }
+}
